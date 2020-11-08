@@ -1,0 +1,8 @@
+<p> Control location(km)&emsp;Opening Time&emsp;Closing Time <p>
+{% for item in items %}
+<p>
+{{ item.kming }}km&emsp;&emsp;&emsp;
+ &emsp;&emsp;&emsp;{{ item.opening }}&emsp;
+ {{ item.closing }} </p>
+  {% endfor %}
+  
